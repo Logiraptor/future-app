@@ -1,0 +1,4 @@
+targets:
+  dev: local/cjeu6ynrq00040151sj8qqmi7
+  default: dev
+  prod: shared-us-west-2/cjeu7kr8i1qfi01641spx5xpr

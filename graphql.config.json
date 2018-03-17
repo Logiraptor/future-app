@@ -1,0 +1,15 @@
+{
+  "schema": {
+    "request": {
+      "url": "https://api.graph.cool/simple/v1/cjeu7kr8i1qfi01641spx5xpr",
+      "method": "POST",
+      "postIntrospectionQuery": true
+    }
+  },
+  "endpoints": [
+    {
+      "name": "Prod",
+      "url": "https://api.graph.cool/simple/v1/cjeu7kr8i1qfi01641spx5xpr"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "pagedraw-test",
+  "version": "1.0.0",
+  "description": "My Graphcool Service",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.11",
+    "apollo-client": "^2.2.7",
+    "apollo-link-http": "^1.5.3",
+    "graphql-tag": "^2.8.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0" ,
+    "core-js": "^2.5.3",
+    "graphql": "^0.13.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.2",
+    "@types/react": "^16.0.40",
+    "@types/react-dom": "^16.0.4",
+    "typescript": "^2.7.2",
+    "pagedraw-cli": "^0.3.1"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "sync-components": "pagedraw sync"
+  }
+}

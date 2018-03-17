@@ -1,0 +1,6 @@
+
+type Task @model {
+  id: ID! @isUnique
+  text: String
+  checked: Boolean
+}

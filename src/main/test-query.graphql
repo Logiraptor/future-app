@@ -1,0 +1,28 @@
+query Hey {
+    allTasks {
+        id
+        text
+        checked
+    }
+}
+
+mutation ManualUpdate {
+    updateTask(id: "cjeurve1jo5920173bs19vtuv", text: "Sync it with GraphCool server") {
+        id
+    }
+}
+
+mutation Seed {
+    task1: createTask(text: "Create a UI in pagedraw", checked: true) {
+        id
+    }
+    task2: createTask(text: "Sync it with graphQL", checked: false) {
+        id
+    }
+    task3: createTask(text: "???", checked: false) {
+        id
+    }
+    task4: createTask(text: "Profit", checked: false) {
+        id
+    }
+}
